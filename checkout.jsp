@@ -4,14 +4,14 @@
 //Below are the constants this program needs
 //replace them with your values
 
-String memberId = "10469"; //put in your merchantid you received after signing up
-String totype = "pz"; // put in your partner name
+String memberId = "11344"; //put in your merchantid you received after signing up
+String totype = "docspartner"; // put in your partner name
 String amount = "1.00"; //your script should substitute the amount here
 String TMPL_AMOUNT = "5.00"; //your script should substitute the amount here
 String merchantTransactionId = "412827484"; //your script should substitute the order id here
 String orderDescription = "description about order"; //your script should substitute detailed description of your order here ( This field is not mandatory )
 String merchantRedirectUrl = "http://localhost:8081/stdKit/redirecturl.jsp"; //You need to change the URL as per your website and the location where you have kept provided redirecturl.jsp file
-String key = "IFOXQc43C06zTrrHI9RiUXKcsoZMfdnk"; //put in the 32 bit alphanumeric key in the quotes provided here
+String key = "9P8vdzPP4oL9BeDgko3ti6HGnou59LEB"; //put in the 32 bit alphanumeric key in the quotes provided here
 String country = "IN";//your script should substitute the customer's country code
 String TMPL_CURRENCY = "";//your script should substitute the currency symbol in which you want to display amount 
 String currency = "USD";//your script should substitute the currency symbol in which you want to display amount 
@@ -26,8 +26,8 @@ String ip = "127.0.0.1"; // your script should replace it with your ip address
 String reservedField1 = ""; //As of now this field is reserved and you need not put anything
 String reservedField2 = ""; //As of now this field is reserved and you need not put anything
 String terminalid="";		//terminalid if provided 
-String paymentMode="";		//payment type as applicable Credit Cards = 1, Vouchers = 2,  Ewallet = 3
-String paymentBrand="";        //card type as applicable Visa = 1;MasterCard=2;Dinners=3;Amex=4;Disc=5;CUP=6;MyMonedero=7
+String paymentMode="";		//payment type as applicable Credit Cards = CC, Vouchers = PV,  Ewallet = EW, NetBanking = NB
+String paymentBrand="";        //card type as applicable Visa = VISA; MasterCard=MC; Dinners= DINER; Amex= AMEX; Disc= DISC; CUP=CUP
 String customerId = "44444";    // customer ID if the customer is registered 
 
 String checksum ="";
